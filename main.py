@@ -14,7 +14,8 @@ def I(): return [int(i) for i in input().split()]
 
 def main():
     n = int(input())
-    print("Wish you luck!")
+    log(n)
+    log("Hi")
 
 
 if __name__ == "__main__":
